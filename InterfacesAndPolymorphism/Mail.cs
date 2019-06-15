@@ -6,12 +6,7 @@ using System.Threading.Tasks;
 
 namespace InterfacesAndPolymorphism
 {
-    class Program
+    public class Mail
     {
-        static void Main(string[] args)
-        {
-            var encoder = new VideoEncoder();
-            encoder.Encode(new Video());
-        }
     }
 }
