@@ -15,6 +15,5 @@ namespace InterfacesAndPolymorphism
         {
             _mailService.Send(new Mail());
         }
-
     }
 }
