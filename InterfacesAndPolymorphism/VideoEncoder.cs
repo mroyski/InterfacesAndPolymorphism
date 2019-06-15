@@ -17,5 +17,10 @@ namespace InterfacesAndPolymorphism
             foreach (var channel in _notificationChannels)
                 channel.Send(new Message());
         }
+
+        public void RegisterNotificationChannel(INotificationChannel channel)
+        {
+            _notificationChannels.Add(channel);
+        }
     }
 }
